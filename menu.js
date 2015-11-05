@@ -1,7 +1,7 @@
 function sendMenuRequest(){
     request = new XMLHttpRequest();
     //url = "https://sheltered-badlands-7534.herokuapp.com/menu.json?hall=" + location + "&meal=" + meal; //web app for getting menu items
-    url = "http://localhost:3000/menu.json?category=Entrees"
+    url = "https://tuftsmenu.herokuapp.com/menu.json?category=Entrees"
     request.open("GET", url, true);
 
     //Send request w/ proper header info
