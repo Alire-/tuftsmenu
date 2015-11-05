@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="menu.css" rel="stylesheet">
+        <script src="menu.js"></script>
+        <!-- jQuery courtesy of Google -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+        <script>
+        $(document).ready(function test(){
+            /*$("#input-id").rating();
+            var hall = location.search.split('location=')[1];
+            var lunch = "Lunch";
+            console.log("the hall is: ", hall);*/
+            sendMenuRequest();
+        });
+        </script>
+    <title>Tufts Menus</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="Dewick">
+                <p class="location"> Dewick <p>
+                <p class="meal"> Lunch </p>
+                <p id="DewickLunch"> </p>
+                <p class="meal"> Dinner </p>
+                <p id="DewickDinner"> </p>
+            </div>
+            <div id="Carmichael">
+                <p class="location"> Carmichael </p>
+                <p class="meal"> Lunch </p>
+                <p id="CarmichaelLunch"> </p>
+                <p class="meal"> Dinner </p>
+                <p id="CarmichaelDinner"> </p>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+
+
